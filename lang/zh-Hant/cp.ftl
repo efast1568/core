@@ -93,8 +93,8 @@ channel-options-title = 選項
 channel-visibility-label = 可見性
 channel-ignore-label = 預設為"忽略"
 channel-ignore-description = 對於所有使用者，在動態消息中隱藏此頻道的帖子，除非他們明確追蹤該頻道。
-channel-layout-title = 佈局
-channel-layout-label = 佈局
+channel-layout-title = 顯示式樣
+channel-layout-label = 格式
 channel-layout-show-author-label = 顯示發帖者
 channel-layout-show-excerpt-label = 顯示摘要
 channel-filters-label = 篩選器
@@ -157,7 +157,7 @@ users-name-column = 姓名
 users-email-column = 電子郵件
 users-groups-column = 群組
 users-created-at-column = 建立時間
-users-last-seen-at-column = 最後登入時間
+users-last-seen-at-column = 最後登入
 users-empty-message = 找不到結果
 
 edit-user-title = 編輯用戶
@@ -169,8 +169,8 @@ user-password-label = 密碼
 user-set-password-label = 設定新密碼
 user-groups-label = 群組
 user-profile-title = 個人資料
-user-created-message = 用戶已建立。
-user-saved-message = 用戶已儲存。
+user-created-message = 用戶已建立
+user-saved-message = 用戶已儲存
 
 delete-user-title = 刪除 { $count ->
     [one] 用戶：
@@ -178,7 +178,7 @@ delete-user-title = 刪除 { $count ->
 }
 keep-user-content-label = 保留內容並標記為匿名
 delete-user-content-label = 永久刪除內容
-delete-user-success-message = 使用者已刪除。
+delete-user-success-message = 使用者已刪除
 
 ## Reactions
 
@@ -187,18 +187,24 @@ reaction-sets-title = 表情集
 create-reaction-set-button = 建立表情集
 edit-reaction-set-title = 編輯表情集
 create-reaction-set-title = 建立表情集
+reaction-set-details-title = 詳細資訊
 reaction-set-name-label = 名稱
-reaction-set-reactions-label = 表情
+reaction-set-usage-label = 設置
+reaction-set-default-posts = 預設於文章使用
+reaction-set-default-comments = 預設於評論使用
 delete-reaction-set-confirm-message = 確定要刪除此表情集嗎？
-reaction-set-saved-message = 表情集已儲存。
+reaction-set-saved-message = Reaction 表情集已儲存
 
+reaction-types-title = 反應類型
+reaction-types-empty-message = 沒有設置表情集
+reaction-types-add-button = 建立
 edit-reaction-type-title = 編輯表情
 create-reaction-type-title = 建立表情
 reaction-type-name-label = 名稱
 reaction-type-score-label = 分數
-reaction-type-score-description = 此表情的分數值。
+reaction-type-score-description = 此表情的分數值
 delete-reaction-type-confirm-message = 確定要刪除此表情嗎？
-reaction-type-saved-message = 表情已儲存。
+reaction-type-saved-message = 表情已儲存
 
 ## Taxonomies
 
@@ -213,13 +219,13 @@ taxonomy-name-label = 名稱
 taxonomy-options-title = 選項
 taxonomy-required-label = 發表文章時，要求選擇標籤
 taxonomy-allow-multiple-label = 允許選擇多個標籤
-taxonomy-saved-message = 分類法已儲存。
+taxonomy-saved-message = 分類法已儲存
 delete-taxonomy-confirm-message = 確定要刪除此分類法嗎？
 
 create-tag-title = 建立標籤
 edit-tag-title = 編輯標籤
 tag-name-label = 名稱
-tag-saved-message = 標籤已儲存。
+tag-saved-message = 標籤已儲存
 delete-tag-confirm-message = 確定要刪除此標籤嗎？
 
 ## Licensing
